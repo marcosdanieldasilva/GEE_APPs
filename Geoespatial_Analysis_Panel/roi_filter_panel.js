@@ -132,4 +132,4 @@ exports.createROIFilterPanel = function(map) {
   return panel;
 };
 
-Map.add(exports.createROIFilterPanel());
+// Map.add(exports.createROIFilterPanel());
