@@ -1,3 +1,5 @@
+// firsts tests
+
 var palettes = require('users/marcosdansil/open_apps:Geoespatial_Analysis_Panel/palettes.js');
 
 var dataFunctions = require('users/marcosdansil/open_apps:Geoespatial_Analysis_Panel/data_functions.js');
