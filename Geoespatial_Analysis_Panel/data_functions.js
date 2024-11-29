@@ -1,6 +1,6 @@
 // Items for the composite selection
 
-// test
+// test 3.0
 exports.compositeItems = [
   { label: "Choose by Date", value: "choose_by_date" },
   {
