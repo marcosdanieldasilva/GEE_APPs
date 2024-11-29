@@ -1,10 +1,10 @@
-var palettes = require('users/marcosdansil/open_apps:Geospatial_Analysis_Panel/palettes.js');
+var palettes = require('users/marcosdansil/open_apps:Geoespatial_Analysis_Panel/palettes.js');
 
-var dataFunctions = require('users/marcosdansil/open_apps:Geospatial_Analysis_Panel/data_functions.js');
+var dataFunctions = require('users/marcosdansil/open_apps:Geoespatial_Analysis_Panel/data_functions.js');
 
-var satelliteFunctions = require('users/marcosdansil/open_apps:Geospatial_Analysis_Panel/satellite_functions.js');
+var satelliteFunctions = require('users/marcosdansil/open_apps:Geoespatial_Analysis_Panel/satellite_functions.js');
 
-var ROIPanel = require('users/marcosdansil/open_apps:Geospatial_Analysis_Panel/roi_filter_panel.js');
+var ROIPanel = require('users/marcosdansil/open_apps:Geoespatial_Analysis_Panel/roi_filter_panel.js');
 
 function createFilterPanel(label, map) {
   var panel = ui.Panel({
