@@ -1,10 +1,10 @@
-var palettes = require('users/gee5a/vegetation-monitoring:5-analysis-panel/palettes.js');
+var palettes = require('users/marcosdansil/open_apps:Geospatial_Analysis_Panel/palettes.js');
 
-var dataFunctions = require('users/gee5a/vegetation-monitoring:5-analysis-panel/data-functions.js');
+var dataFunctions = require('users/marcosdansil/open_apps:Geospatial_Analysis_Panel/data_functions.js');
 
-var satelliteFunctions = require('users/gee5a/vegetation-monitoring:5-analysis-panel/satellite-functions.js');
+var satelliteFunctions = require('users/marcosdansil/open_apps:Geospatial_Analysis_Panel/satellite_functions.js');
 
-var ROIPanel = require('users/gee5a/vegetation-monitoring:5-analysis-panel/roiFilterPanel.js');
+var ROIPanel = require('users/marcosdansil/open_apps:Geospatial_Analysis_Panel/roi_filter_panel.js');
 
 function createFilterPanel(label, map) {
   var panel = ui.Panel({
