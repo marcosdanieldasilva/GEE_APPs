@@ -1,4 +1,13 @@
-
+/**** Start of imports. If edited, may not auto-convert in the playground. ****/
+var landsat4 = ee.ImageCollection("LANDSAT/LT04/C02/T1_L2"),
+    landsat5 = ee.ImageCollection("LANDSAT/LT05/C02/T1_L2"),
+    landsat7 = ee.ImageCollection("LANDSAT/LE07/C02/T1_L2"),
+    landsat8 = ee.ImageCollection("LANDSAT/LC08/C02/T1_L2"),
+    landsat9 = ee.ImageCollection("LANDSAT/LC09/C02/T1_L2"),
+    s2 = ee.ImageCollection("COPERNICUS/S2_SR_HARMONIZED"),
+    csPlus = ee.ImageCollection("GOOGLE/CLOUD_SCORE_PLUS/V1/S2_HARMONIZED"),
+    modis = ee.ImageCollection("MODIS/006/MOD09GA");
+/***** End of imports. If edited, may not auto-convert in the playground. *****/
 exports.modis = modis;
 // Merging Landsat ETM+ collections and renaming bands
 exports.landsatETM = landsat4
