@@ -103,7 +103,7 @@ exports.createROIFilterPanel = function(map) {
   
   var pathTextbox = ui.Textbox({
     placeholder: 'Enter Table ID path',  
-    value: 'users/marcosdansil/BR_Municipios_2023',
+    value: 'projects/users/marcosdansil/BR_Municipios_2023',
     style: {stretch: 'both', margin: '5px 0 0 5px'}
   });
   
@@ -132,4 +132,4 @@ exports.createROIFilterPanel = function(map) {
   return panel;
 };
 
-// Map.add(exports.createROIFilterPanel());
+Map.add(exports.createROIFilterPanel());
