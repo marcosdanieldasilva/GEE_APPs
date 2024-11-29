@@ -94,7 +94,6 @@ exports.createROIFilterPanel = function(map) {
       var columns = getColumns(filteredROI, excludedColumns);
       columnSelect.setDisabled(false);
       columnSelect.items().reset(columns);
-      map.centerObject(filteredROI);
     }
   });
 
