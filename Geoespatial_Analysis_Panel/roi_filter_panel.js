@@ -93,8 +93,7 @@ exports.createROIFilterPanel = function(map) {
       filteredROI = ee.FeatureCollection(path);
       var columns = getColumns(filteredROI, excludedColumns);
       columnSelect.setDisabled(false);
-      columnSelect.items().reset(columns);
-      map.centerObject(filteredROI);
+      columnSelect.items().reset(columns)
     }
   });
 
