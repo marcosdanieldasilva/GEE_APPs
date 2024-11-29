@@ -25,8 +25,6 @@ exports.createROIFilterPanel = function(map) {
     return sampleValue.getInfo();
   };
 
-  
-
   function updateFiltersLabel() {
     filtersText = appliedFilters.length > 0 ? appliedFilters.map(function(filter) {
       return filter.column + '=' + filter.value;
@@ -105,7 +103,7 @@ exports.createROIFilterPanel = function(map) {
   
   var pathTextbox = ui.Textbox({
     placeholder: 'Enter Table ID path',  
-    value: 'projects/gee-5a-431814/assets/tests/Base_SIG_SJN_Florestadora_2023',
+    value: 'users/marcosdansil/BR_Municipios_2023',
     style: {stretch: 'both', margin: '5px 0 0 5px'}
   });
   
