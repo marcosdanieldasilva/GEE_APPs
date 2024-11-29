@@ -1,4 +1,4 @@
-// firsts testes
+// firsts tests
 
 var palettes = require('users/marcosdansil/open_apps:Geoespatial_Analysis_Panel/palettes.js');
 
